@@ -5,7 +5,7 @@ Blog desarrollado con TAILWINDCSS y VITE
 
 ## Demo
 
-![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+![Image text](https://github.com/cybertcode/FRONTEND-BLOG-TAILWINDCSS/blob/main/demo.gif)
 
 ## Tecnologías
 
