@@ -1,7 +1,47 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# BLOG CON TAILWINDCSS
 
-## Recommended IDE Setup
+Blog desarrollado con TAILWINDCSS y VITE
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Demo
+
+![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+
+## Tecnologías
+
+ - [Tailwincss](https://tailwindcss.com/docs/position)
+ - [Vite](https://vitejs.dev/)
+ - [VSCode](https://code.visualstudio.com/)
+
+
+## Authors
+
+- [@cybert22](https://www.github.com/cybert22)
+- [@cybertcode](https://www.github.com/cybertcode)
+
+
+## Instalación
+
+Para implementar este proyecto, ejecute
+
+```bash
+  git clone https://github.com/cybertcode/FRONTEND-BLOG-TAILWINDCSS.git
+```
+Entrar en el directorio y ejecutar
+```bash
+  npm install && npm run dev
+```
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
