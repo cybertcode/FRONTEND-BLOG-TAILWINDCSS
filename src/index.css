@@ -1,3 +1,6 @@
+/* sansita | lato*/
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Lato:wght@300;400;700;900&family=Sansita:ital,wght@0,400;1,700;1,800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
