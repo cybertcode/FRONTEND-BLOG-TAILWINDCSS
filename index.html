@@ -1,42 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Blog codero</title>
+  <title>Blog Landing Page</title>
 </head>
 
-<div class="flex ">
-  <div class="w-1/2 bg-violet-600 border border-black rounded p-2 m-1">w-1/2</div>
-  <div class="w-1/2 bg-violet-600 border border-black rounded p-2 m-1">w-1/2</div>
-</div>
-<div class="flex ">
-  <div class="w-2/5 bg-violet-600 border border-black rounded p-2 m-1">w-2/5</div>
-  <div class="w-3/5 bg-violet-600 border border-black rounded p-2 m-1">w-3/5</div>
-</div>
-<div class="flex ">
-  <div class="w-1/3 bg-violet-600 border border-black rounded p-2 m-1">w-1/3</div>
-  <div class="w-2/3 bg-violet-600 border border-black rounded p-2 m-1">w-2/3</div>
-</div>
-<div class="flex ">
-  <div class="w-1/4 bg-violet-600 border border-black rounded p-2 m-1">w-1/4</div>
-  <div class="w-3/4 bg-violet-600 border border-black rounded p-2 m-1">w-3/4</div>
-</div>
-<div class="flex ">
-  <div class="w-1/5 bg-violet-600 border border-black rounded p-2 m-1">w-1/5</div>
-  <div class="w-4/5 bg-violet-600 border border-black rounded p-2 m-1">w-4/5</div>
-</div>
-<div class="flex ">
-  <div class="w-1/6 bg-violet-600 border border-black rounded p-2 m-1">w-1/6</div>
-  <div class="w-5/6 bg-violet-600 border border-black rounded p-2 m-1">w-5/6</div>
-</div>
-<div class="w-full bg-violet-600 border border-black rounded p-2 m-1 hover:bg-violet-300 hover:border-zinc-800">w-full</div>
-<p class="font-spacial">Lorem ipsum dolor sit amet.</p>
+<body class="font-body">
+  <div class="container px-4 mx-auto max-w-5xl">
+    <div class="text-center py-14">
+      <h1 class="text-5xl font-bold font-title text-sec">
+        Última entrada de<br>
+        <span class="text-pri">Blog</span>
+      </h1>
+      <p class="text-pri max-w-xs mx-auto py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dignissimos nostrum odio consequuntur error pariatur.</p>
+      <input type="search" class="bg-our-bg px-8 py-2 rounded-3xl shadow-inner  ring-sec focus:ring-1 focus:outline-none hover:ring-1 hover:ring-sec" placeholder="Buscar">
+    </div>
+    <!-- Contendido -->
+    <section class="main">
+      <div class="grid grid-cols-3 gap-y-16 gap-x-12">
+        <!-- Primer registro o fila -->
+        <div class="col-span-3">
+          <a href="#" class="border border-gray-100 flex rounded-3xl overflow-hidden transition duration-300 hover:shadow-lg mb-12">
+            <div class="w-1/2 ">
+              <img src="/src/img/1.jpg" alt="" class="object-center ">
+            </div>
+            <div class="w-1/2 p-7">
+              <p class="px-3 bg-our-bg rounded text-sec text-sm inline">Programación Web
+              </p>
+              <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration 200 hover:text-sec">¿Qué significa la programación web?</h2>
+              <p class="text-gen pb-5">La programación web se refiere a la escritura, el marcado y la codificación involucrados en el desarrollo web, que incluye contenido web, secuencias de comandos
+                de servidor y cliente web </p>
+              <div class="flex item-center">
+                <img src="/src/img/pc.jpg" alt="" class="w-9 h-9 rounded-full object-center">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">MKevyn HH</h6>
+                  <p class="text-xs text-gen">FullStack develop</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Fin primer registro o fila -->
+        <!-- Segundo registro o fila -->
+        <div class="blog-card">
+          <a href="#" class="">
+            <img src="/src/img/2.jpg" alt="" class="object-center">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">Techopedia explica la programación web
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat aliquid suscipit exercitationem aut magni!</p>
+              <div class="flex item-center">
+                <img src="/src/img/pc.jpg" alt="" class="w-9 h-9 rounded-full object-center">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">MKevyn HH</h6>
+                  <p class="text-xs text-gen">FullStack develop</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="blog-card">
+          <a href="#" class="">
+            <img src="/src/img/3.jpg" alt="" class="object-center">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">Techopedia explica la programación web
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat aliquid suscipit exercitationem aut magni!</p>
+              <div class="flex item-center">
+                <img src="/src/img/pc.jpg" alt="" class="w-9 h-9 rounded-full object-center">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">MKevyn HH</h6>
+                  <p class="text-xs text-gen">FullStack develop</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="blog-card">
+          <a href="#" class="">
+            <img src="/src/img/4.jpg" alt="" class="object-center">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">Techopedia explica la programación web
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat aliquid suscipit exercitationem aut magni!</p>
+              <div class="flex item-center">
+                <img src="/src/img/pc.jpg" alt="" class="w-9 h-9 rounded-full object-center">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">MKevyn HH</h6>
+                  <p class="text-xs text-gen">FullStack develop</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Segunda parte inferior -->
+        <div class="blog-card col-span-2">
+          <a href="#" class="">
+            <img src="/src/img/pc.jpg" alt="" class="object-center h-72 w-full">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">Techopedia explica la programación web
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat aliquid suscipit exercitationem aut magni!</p>
+              <div class="flex item-center">
+                <img src="/src/img/pc.jpg" alt="" class="w-9 h-9 rounded-full object-center">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">MKevyn HH</h6>
+                  <p class="text-xs text-gen">FullStack develop</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="blog-card">
+          <a href="#" class="">
+            <img src="/src/img/4.jpg" alt="" class="object-cover ">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">Techopedia explica la programación web
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat aliquid suscipit exercitationem aut magni!</p>
+              <div class="flex item-center">
+                <img src="/src/img/pc.jpg" alt="" class="w-9 h-9 rounded-full object-center">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">MKevyn HH</h6>
+                  <p class="text-xs text-gen">FullStack develop</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Fin segundo registro o fila -->
+      </div>
+    </section>
+    <!-- Suscríbete -->
+    <section class="suscribe">
+      <div class="text-center mx-auto py-32">
+        <h6 class="text-5xl font-bold font-title text-pri">Últimas publicaciones del <br>
+          <span class="text-sec">Blog</span>
+        </h6>
+        <p class="max-w-xs mx-auto text-pri py-6">Suscríbete al boletín diario para recibir notificación de todas nuestras publicaciones</p>
+        <input type="email" class="px-8 py-2 bg-our-bg rounded-3xl shadow-inner focus:outline-none " placeholder="Correo electrónico">
+        <input type="submit" class="-ml-12 px-8 py-2 rounded-3xl bg-sec text-white hover:bg-blue-800 hover:outline-none focus:ring-1" value="Suscribirme">
+      </div>
+    </section>
+    <!-- fin suscríbete -->
+  </div>
+  <footer class="bg-pri">
+    <div class="flex text-white py-8 font-title font-extrabold justify-between max-w-5xl mx-auto tracking-wider">
+      <p>Tailwincss</p>
+      <p>Todos los derechos reservados @2022</p>
+    </div>
+  </footer>
 
-<body>
+
+
+
+
+
+
   <script type="module" src="/src/main.js"></script>
 </body>
 
