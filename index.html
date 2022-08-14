@@ -10,8 +10,8 @@
 
 <body class="font-body">
   <div class="container px-4 mx-auto max-w-5xl">
-    <div class="text-center py-14">
-      <h1 class="text-5xl font-bold font-title text-sec">
+    <div class="text-center py-10 sm:py-14">
+      <h1 class="text-3xl md:text-5xl font-bold font-title text-sec">
         Última entrada de<br>
         <span class="text-pri">Blog</span>
       </h1>
@@ -20,17 +20,17 @@
     </div>
     <!-- Contendido -->
     <section class="main">
-      <div class="grid grid-cols-3 gap-y-16 gap-x-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 lg:gap-y-16 sm:gap-y-12 gap-x-8 lg:gap-x-12">
         <!-- Primer registro o fila -->
-        <div class="col-span-3">
-          <a href="#" class="border border-gray-100 flex rounded-3xl overflow-hidden transition duration-300 hover:shadow-lg mb-12">
-            <div class="w-1/2 ">
+        <div class="col-span-1 md:col-span-2 lg:col-span-3">
+          <a href="#" class="border border-gray-100 block md:flex rounded-3xl overflow-hidden transition duration-300 hover:shadow-lg mb-12">
+            <div class="md:w-1/2 ">
               <img src="/src/img/1.jpg" alt="" class="object-center ">
             </div>
-            <div class="w-1/2 p-7">
+            <div class="md:w-1/2 p-4 md:p-7">
               <p class="px-3 bg-our-bg rounded text-sec text-sm inline">Programación Web
               </p>
-              <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration 200 hover:text-sec">¿Qué significa la programación web?</h2>
+              <h2 class="font-bold text-pri text-xl md:text-2xl font-title py-3 transition duration 200 hover:text-sec">¿Qué significa la programación web?</h2>
               <p class="text-gen pb-5">La programación web se refiere a la escritura, el marcado y la codificación involucrados en el desarrollo web, que incluye contenido web, secuencias de comandos
                 de servidor y cliente web </p>
               <div class="flex item-center">
@@ -97,9 +97,9 @@
           </a>
         </div>
         <!-- Segunda parte inferior -->
-        <div class="blog-card col-span-2">
+        <div class="blog-card col-span-1 lg:col-span-2">
           <a href="#" class="">
-            <img src="/src/img/pc.jpg" alt="" class="object-center h-72 w-full">
+            <img src="/src/img/pc.jpg" alt="" class="object-center lg:h-72 w-full">
             <div class="px-4 pb-6">
               <h2 class="post-title">Techopedia explica la programación web
               </h2>
@@ -136,19 +136,19 @@
     </section>
     <!-- Suscríbete -->
     <section class="suscribe">
-      <div class="text-center mx-auto py-32">
-        <h6 class="text-5xl font-bold font-title text-pri">Últimas publicaciones del <br>
+      <div class="text-center mx-auto sm:py-20 py-12 lg:py-32">
+        <h6 class="text-3xl md:text-5xl font-bold font-title text-pri">Últimas publicaciones del <br>
           <span class="text-sec">Blog</span>
         </h6>
         <p class="max-w-xs mx-auto text-pri py-6">Suscríbete al boletín diario para recibir notificación de todas nuestras publicaciones</p>
         <input type="email" class="px-8 py-2 bg-our-bg rounded-3xl shadow-inner focus:outline-none " placeholder="Correo electrónico">
-        <input type="submit" class="-ml-12 px-8 py-2 rounded-3xl bg-sec text-white hover:bg-blue-800 hover:outline-none focus:ring-1" value="Suscribirme">
+        <input type="submit" class="mt-4 sm:mt-0 sm:-ml-12 px-8 py-2 rounded-3xl bg-sec text-white hover:bg-blue-800 hover:outline-none focus:ring-1" value="Suscribirme">
       </div>
     </section>
     <!-- fin suscríbete -->
   </div>
   <footer class="bg-pri">
-    <div class="flex text-white py-8 font-title font-extrabold justify-between max-w-5xl mx-auto tracking-wider">
+    <div class="sm:flex text-center px-12 text-white py-8 font-title font-extrabold justify-between max-w-5xl mx-auto tracking-wider">
       <p>Tailwincss</p>
       <p>Todos los derechos reservados @2022</p>
     </div>
