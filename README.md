@@ -1,15 +1,20 @@
-<div align="center>
+<h1 align="center">Blog con Tailwind CSS, Vite y diseño responsive elegante</h1>
 
-<h1>Blog con Tailwind CSS, Vite y diseño responsive elegante</h1>
+<center>
 
 ## 💬 Descripción del proyecto
+
+</center>
 
 <p>Este es un proyecto de un blog desarrollado con Tailwind CSS, Vite y un diseño responsive elegante. Este blog cuenta con las siguientes características:
 
 Diseño responsive elegante que se adapta a diferentes tamaños de pantalla.
 Desarrollado con Tailwind CSS, un framework de CSS que permite crear diseños personalizados de manera rápida y eficiente.
 Utiliza Vite para construir el proyecto y manejar el flujo de desarrollo.
-Utiliza JavaScript moderno para el desarrollo.</p>
+Utiliza JavaScript moderno para el desarrollo.
+
+</p>
+<div align="center">
 
 ## 🥇Demo🥇
 
